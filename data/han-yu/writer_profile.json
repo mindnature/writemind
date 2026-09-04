@@ -1,0 +1,17 @@
+{
+  "writer_id": "han-yu",
+  "name": "韩愈",
+  "slug": "han-yu",
+  "aliases": ["韩退之", "昌黎先生"],
+  "languages": ["Classical Chinese"],
+  "period": "Tang dynasty",
+  "genres": ["prose", "letter", "preface", "argumentative prose", "memorial"],
+  "source_ceiling": "B",
+  "distillation_grade": "D_textual_reconstruction",
+  "status": "golden_set_bootstrap",
+  "unsafe_to_claim": [
+    "Do not claim access to Han Yu's private drafting thoughts unless a source directly records them.",
+    "Do not turn a modern article into Classical Chinese merely to activate the Han Yu lens.",
+    "Do not attribute later literary-theory slogans to Han Yu without source verification."
+  ]
+}

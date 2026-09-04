@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WriteMind Writing Heuristic",
+  "type": "object",
+  "required": ["heuristic_id", "name", "status", "lens_family", "decision_structure", "rule", "supporting_episodes", "boundary_conditions", "specificity", "composition_audit"],
+  "properties": {
+    "heuristic_id": {"type": "string"},
+    "name": {"type": "string"},
+    "status": {"enum": ["candidate", "provisional", "validated", "rejected"]},
+    "lens_family": {"type": "string"},
+    "decision_structure": {"type": "string"},
+    "rule": {"type": "string"},
+    "operational_actions": {"type": "array", "items": {"type": "string"}},
+    "supporting_episodes": {"type": "array", "items": {"type": "string"}},
+    "counter_episodes": {"type": "array", "items": {"type": "string"}},
+    "boundary_conditions": {"type": "array", "items": {"type": "string"}},
+    "failure_signals": {"type": "array", "items": {"type": "string"}},
+    "specificity": {
+      "type": "object",
+      "required": ["generic_baseline_overlap", "writer_specificity", "writer_added_delta"],
+      "properties": {
+        "generic_baseline_overlap": {"type": "string"},
+        "writer_specificity": {"type": "string"},
+        "writer_added_delta": {"type": "string"},
+        "specificity_evidence": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "composition_audit": {
+      "type": "object",
+      "required": ["fabrication_risk"],
+      "properties": {
+        "components": {"type": "array", "items": {"type": "string"}},
+        "combined_operation_evidence": {"type": "array", "items": {"type": "string"}},
+        "fabrication_risk": {"enum": ["low", "medium", "high", "unknown"]},
+        "alternative_interpretation": {"type": "string"}
+      }
+    },
+    "routing": {
+      "type": "object",
+      "properties": {"lens_eligibility": {"enum": ["active_lens", "experimental_lens", "generic_absorbed", "excluded"]}}
+    }
+  },
+  "additionalProperties": true
+}

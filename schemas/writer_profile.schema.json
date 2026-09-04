@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WriteMind Writer Profile",
+  "type": "object",
+  "required": ["writer_id", "name", "slug", "languages", "source_ceiling", "distillation_grade"],
+  "properties": {
+    "writer_id": {"type": "string"},
+    "name": {"type": "string"},
+    "slug": {"type": "string"},
+    "aliases": {"type": "array", "items": {"type": "string"}},
+    "languages": {"type": "array", "items": {"type": "string"}},
+    "period": {"type": "string"},
+    "genres": {"type": "array", "items": {"type": "string"}},
+    "source_ceiling": {"enum": ["A", "B", "C", "D"]},
+    "distillation_grade": {"enum": ["A_process_archival", "B_text_process_informed", "C_author_retrospective", "D_textual_reconstruction"]},
+    "unsafe_to_claim": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

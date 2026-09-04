@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WriteMind Writing Episode",
+  "type": "object",
+  "required": ["episode_id", "writer", "title", "episode_type", "source_refs", "writing_problem", "decision_action", "evidence_strength"],
+  "properties": {
+    "episode_id": {"type": "string"},
+    "writer": {"type": "string"},
+    "title": {"type": "string"},
+    "episode_type": {"type": "string"},
+    "date_or_period": {"type": "string"},
+    "source_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "writing_problem": {"type": "string"},
+    "context": {"type": "string"},
+    "constraints": {"type": "array", "items": {"type": "string"}},
+    "alternatives_or_contrasts": {"type": "array", "items": {"type": "string"}},
+    "decision_action": {"type": "string"},
+    "textual_observation": {"type": "string"},
+    "candidate_heuristics": {"type": "array", "items": {"type": "string"}},
+    "counter_episode_refs": {"type": "array", "items": {"type": "string"}},
+    "alternative_interpretations": {"type": "array", "items": {"type": "string"}},
+    "evidence_strength": {"enum": ["low", "medium", "high"]},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": true
+}

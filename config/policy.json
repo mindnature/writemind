@@ -1,0 +1,49 @@
+{
+  "version": "0.1",
+  "default_lens_family": "thesis_judgment",
+  "lens_families": {
+    "thesis_judgment": {"episode_types": ["thesis_choice", "problem_framing", "argument_choice"]},
+    "structural_judgment": {"episode_types": ["opening_choice", "structure_choice", "argument_choice", "ending_choice", "deletion_choice"]},
+    "rhetorical_judgment": {"episode_types": ["sentence_choice", "rhetorical_choice", "tone_choice"]},
+    "narrative_judgment": {"episode_types": ["narrative_choice", "detail_choice", "sequence_choice"]},
+    "revision_judgment": {"episode_types": ["revision_choice", "deletion_choice", "wording_choice"]},
+    "audience_judgment": {"episode_types": ["audience_choice", "explanation_choice", "tone_choice"]}
+  },
+  "routing": {
+    "active_lens": {"destination": "writer_lens"},
+    "experimental_lens": {"destination": "experimental_lens"},
+    "generic_absorbed": {"destination": "writing_baseline_candidate"},
+    "excluded": {"destination": "excluded"}
+  },
+  "writer_task_fit": {
+    "weights": {
+      "genre_fit": 0.20,
+      "decision_structure_fit": 0.30,
+      "evidence_fit": 0.25,
+      "added_value_fit": 0.25
+    },
+    "thresholds": {"active": 75, "experimental": 50},
+    "cross_genre_rule": {
+      "genre_fit_below": 40,
+      "unless_decision_structure_fit_at_least": 80,
+      "maximum_activation": "experimental"
+    }
+  },
+  "transfer_policy": {
+    "high": "revision_allowed",
+    "medium": "diagnostic_and_advice_only",
+    "low": "question_generation_only",
+    "reject": "abstain"
+  },
+  "active_lens_provenance": {
+    "minimum_supporting_episodes": 2,
+    "require_source_locators": true,
+    "require_writer_added_delta": true,
+    "require_composition_audit": true
+  },
+  "surface_style_policy": {
+    "default": "preserve_target_register",
+    "historical_language_imitation": "off",
+    "require_functional_reason_for_style_transfer": true
+  }
+}
