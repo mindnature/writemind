@@ -1,0 +1,28 @@
+{
+  "episode_id": "HY-E04-SUBSTANCE-EXPRESSION",
+  "writer": "韩愈",
+  "title": "Inner substance and sufficient expression are both required",
+  "episode_type": "sentence_choice",
+  "date_or_period": "Tang dynasty; letter to Yuchi Sheng",
+  "source_refs": ["HY-SRC-WEICHI-WIKI"],
+  "writing_problem": "Is strong prose produced primarily by surface verbal technique or by what the writer has to express?",
+  "context": "Han Yu answers a younger writer by relating internal substance to its outward verbal manifestation.",
+  "constraints": [
+    "Empty verbal polish lacks sufficient underlying substance.",
+    "Substance alone does not make completed prose if diction is insufficient."
+  ],
+  "alternatives_or_contrasts": [
+    "Treat language as detachable decoration.",
+    "Treat inner conviction as enough even when expression is inadequate."
+  ],
+  "decision_action": "Develop the underlying substance and let expression grow from it, while still requiring language to be adequate to the completed communicative task.",
+  "textual_observation": "The letter links qualities within the writer to outward expression, but explicitly states that insufficient diction cannot make complete writing.",
+  "evidence_phrases": ["必有诸其中", "辞不足不可以为成文"],
+  "candidate_heuristics": ["HY-H02-FIT-BEFORE-DIFFICULTY", "HY-H03-INNER-FORCE-RHYTHM"],
+  "counter_episode_refs": [],
+  "alternative_interpretations": [
+    "The original framework is ethical and philosophical; modern transfer should preserve only the decision structure, not silently secularize every historical term.",
+    "The passage does not provide a mechanical sentence-level editing recipe."
+  ],
+  "evidence_strength": "high"
+}

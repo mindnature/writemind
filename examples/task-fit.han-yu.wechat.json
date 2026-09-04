@@ -1,11 +1,16 @@
 {
-  "task": "Diagnose and improve the thesis and argumentative structure of a modern WeChat public-account essay without imitating Classical Chinese surface style.",
+  "task": "Diagnose and improve the thesis, anti-template wording and argumentative structure of a modern WeChat public-account essay without imitating Classical Chinese surface style.",
   "writer": "han-yu",
   "scores": {
-    "genre_fit": 55,
-    "decision_structure_fit": 85,
-    "evidence_fit": 20,
-    "added_value_fit": 35
+    "genre_fit": 60,
+    "decision_structure_fit": 90,
+    "evidence_fit": 82,
+    "added_value_fit": 80
   },
-  "note": "Bootstrap example: before Han Yu evidence is distilled, the expected activation should remain experimental or abstain rather than forcing a lens."
+  "rationale": {
+    "genre_fit": "Ancient argumentative prose and letters are not WeChat articles, so surface genre transfer is limited.",
+    "decision_structure_fit": "The target problems—learning from models without copying diction, judging expression by function, and detecting formulaic approval—closely match inspected Han Yu Episodes.",
+    "evidence_fit": "HY-H01 has three supporting Episodes from direct advice/self-report plus authored evaluation.",
+    "added_value_fit": "HY-H01 adds a distinctive learn-principle/purge-diction sequence beyond generic 'avoid cliches' advice."
+  }
 }

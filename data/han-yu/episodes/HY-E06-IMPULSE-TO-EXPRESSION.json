@@ -1,0 +1,25 @@
+{
+  "episode_id": "HY-E06-IMPULSE-TO-EXPRESSION",
+  "writer": "韩愈",
+  "title": "Expression begins from pressure worth voicing",
+  "episode_type": "thesis_choice",
+  "date_or_period": "Tang dynasty; preface for Meng Jiao",
+  "source_refs": ["HY-SRC-MENG-WIKI"],
+  "writing_problem": "What gives speech and literary expression sufficient inner pressure to become meaningful utterance?",
+  "context": "The preface opens by generalizing from physical objects that sound when disturbed to human speech and literary expression.",
+  "constraints": [
+    "The text is a literary-philosophical argument, not a direct revision manual.",
+    "The concept of '不平' is broader than modern conflict or controversy."
+  ],
+  "alternatives_or_contrasts": ["Expression generated without a felt pressure, thought, grief or other motivating content."],
+  "decision_action": "Frame meaningful expression as arising from an internal or situational pressure that demands articulation, then choose a form capable of carrying that pressure.",
+  "textual_observation": "The preface repeatedly moves from external disturbance to sound, then from human experience to speech and refined literary expression.",
+  "evidence_phrases": ["大凡物不得其平则鸣", "文辞之于言，又其精也"],
+  "candidate_heuristics": [],
+  "counter_episode_refs": [],
+  "alternative_interpretations": [
+    "This may be primarily a theory of literary expression and historical poetics rather than a transferable composition heuristic.",
+    "It should remain Episode evidence until contrastive synthesis shows added value for modern writing tasks."
+  ],
+  "evidence_strength": "medium"
+}

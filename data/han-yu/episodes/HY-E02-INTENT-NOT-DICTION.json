@@ -1,0 +1,28 @@
+{
+  "episode_id": "HY-E02-INTENT-NOT-DICTION",
+  "writer": "韩愈",
+  "title": "Learn the governing intent, not the predecessor's wording",
+  "episode_type": "wording_choice",
+  "date_or_period": "Tang dynasty; letter to Liu Zhengfu",
+  "source_refs": ["HY-SRC-LIU-WIKI"],
+  "writing_problem": "When learning from ancient writers whose diction differs from one another, what exactly should the learner imitate?",
+  "context": "Han Yu answers direct questions about models for writing and about whether prose ought to be easy or difficult.",
+  "constraints": [
+    "Exemplary earlier texts do not share one surface diction.",
+    "A learner can mistake visible wording for the transferable part of the model."
+  ],
+  "alternatives_or_contrasts": [
+    "Copy the diction of admired old writers.",
+    "Choose difficulty or simplicity as a fixed aesthetic target."
+  ],
+  "decision_action": "Use exemplary writers as models at the level of governing intent or principle rather than surface diction; judge difficulty by what fits the matter rather than by a fixed preference for easy or hard prose.",
+  "textual_observation": "The letter gives compact direct answers: '师其意，不师其辞' and '无难易，惟其是尔'.",
+  "evidence_phrases": ["师其意，不师其辞", "无难易，惟其是尔"],
+  "candidate_heuristics": ["HY-H01-PRINCIPLE-NOT-DICTION", "HY-H02-FIT-BEFORE-DIFFICULTY"],
+  "counter_episode_refs": [],
+  "alternative_interpretations": [
+    "The exact scope of '意' is historically contested; WriteMind should not reduce it to a modern single concept such as thesis or intent without task-specific interpretation.",
+    "The rule does not imply that wording is unimportant."
+  ],
+  "evidence_strength": "high"
+}

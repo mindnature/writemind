@@ -1,0 +1,28 @@
+{
+  "episode_id": "HY-E03-AUDIENCE-PRAISE",
+  "writer": "韩愈",
+  "title": "Contemporary praise can reward conventional writing",
+  "episode_type": "audience_choice",
+  "date_or_period": "Tang dynasty; letter to Feng Su",
+  "source_refs": ["HY-SRC-FENGSU-WIKI"],
+  "writing_problem": "How should a writer interpret a conflict between personal quality judgment and immediate audience approval?",
+  "context": "Han Yu contrasts writing he personally values with conventional writing produced for occasions and describes opposite audience reactions.",
+  "constraints": [
+    "Current audiences possess familiar expectations.",
+    "Conventional writing can be immediately legible and rewarded.",
+    "A writer may be pursuing standards not optimized for contemporary approval."
+  ],
+  "alternatives_or_contrasts": [
+    "Use immediate approval as the main quality signal.",
+    "Abandon an unfamiliar writing program because readers find it strange."
+  ],
+  "decision_action": "Do not automatically equate immediate praise with writing quality when the audience may be rewarding conformity; maintain an independent criterion and distinguish long-term writing aims from short-term acceptance.",
+  "textual_observation": "The letter says writing Han Yu finds satisfying is often judged strange, while conventional occasional writing that embarrasses him is praised.",
+  "candidate_heuristics": ["HY-H04-PRAISE-NOT-CRITERION"],
+  "counter_episode_refs": [],
+  "alternative_interpretations": [
+    "This is partly a polemical self-positioning statement and may exaggerate the opposition between Han Yu and contemporary taste.",
+    "For platform writing, immediate reader response can be a legitimate objective; this heuristic must pass audience-goal fit before activation."
+  ],
+  "evidence_strength": "high"
+}

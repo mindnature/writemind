@@ -1,0 +1,31 @@
+{
+  "episode_id": "HY-E01-LEARN-REMOVE",
+  "writer": "韩愈",
+  "title": "Deep model study followed by active removal of inherited wording",
+  "episode_type": "revision_choice",
+  "date_or_period": "Tang dynasty; letter to Li Yi",
+  "source_refs": ["HY-SRC-LIYI-CTEXT"],
+  "writing_problem": "How should a writer who aims beyond short-term approval train toward durable prose without merely reproducing predecessors?",
+  "context": "In a reply to Li Yi asking about writing, Han Yu describes his own long study and his standards for composing.",
+  "constraints": [
+    "The writer wants to learn from highly valued earlier texts.",
+    "Imitation can preserve other people's phrasing rather than produce independent expression.",
+    "External praise can reward resemblance to familiar language."
+  ],
+  "alternatives_or_contrasts": [
+    "Seeking quick success or contemporary advantage.",
+    "Retaining familiar inherited expressions because they are recognizable or praised.",
+    "Rejecting predecessors entirely rather than studying them deeply."
+  ],
+  "decision_action": "Study earlier exemplary writing deeply, but when composing actively remove stale or inherited formulations, continue filtering mixed expression, and do not treat immediate praise as proof that the prose has become independent.",
+  "textual_observation": "The letter describes a sequence of prolonged reading, difficult composition, active rejection of conventional language, later greater fluency, and renewed filtering before release.",
+  "evidence_phrases": ["惟陈言之务去", "誉之则以为忧"],
+  "candidate_heuristics": ["HY-H01-PRINCIPLE-NOT-DICTION", "HY-H03-INNER-FORCE-RHYTHM", "HY-H04-PRAISE-NOT-CRITERION"],
+  "counter_episode_refs": [],
+  "alternative_interpretations": [
+    "This is a self-presentation in an advice letter and may idealize Han Yu's actual day-to-day drafting process.",
+    "The moral and classical learning program in the letter cannot be transferred wholesale into modern content writing."
+  ],
+  "evidence_strength": "high",
+  "notes": "Process-informed first-person evidence in a received text; not an autograph revision record."
+}

@@ -1,5 +1,97 @@
 {
   "writer": "韩愈",
-  "status": "bootstrap_pending_source_inspection",
-  "sources": []
+  "status": "golden_set_v0.1_inspected",
+  "sources": [
+    {
+      "source_id": "HY-SRC-LIYI-CTEXT",
+      "title": "答李翊书",
+      "source_class": "A",
+      "source_role": "first_person_writing_method_letter",
+      "edition": "全唐文卷552 via Chinese Text Project",
+      "url": "https://ctext.org/wiki.pl?chapter=229553&if=gb",
+      "inspected": true,
+      "claim_bearing": true,
+      "locator": "韩愈·答李翊书",
+      "independence_group": "HY-TEXT-LIYI",
+      "notes": "Directly describes long-term study, removing stale/borrowed expression, filtering mixed language, and the relation between qi and verbal rhythm. Received text, not autograph manuscript."
+    },
+    {
+      "source_id": "HY-SRC-LIYI-WIKI",
+      "title": "答李翊书",
+      "source_class": "A",
+      "source_role": "textual_witness",
+      "edition": "Wikisource, 全唐文卷552",
+      "url": "https://zh.wikisource.org/wiki/答李翊書",
+      "inspected": true,
+      "claim_bearing": false,
+      "locator": "full text",
+      "independence_group": "HY-TEXT-LIYI",
+      "notes": "Corroborating edition; must not be double-counted as an independent Episode source."
+    },
+    {
+      "source_id": "HY-SRC-LIU-WIKI",
+      "title": "答刘正夫书",
+      "source_class": "A",
+      "source_role": "first_person_writing_advice_letter",
+      "edition": "Wikisource, 全唐文卷553",
+      "url": "https://zh.wikisource.org/zh-hans/答劉正夫書",
+      "inspected": true,
+      "claim_bearing": true,
+      "locator": "second and third paragraphs",
+      "independence_group": "HY-TEXT-LIU",
+      "notes": "Explicitly answers what to imitate in ancient writers and whether prose should be easy or difficult."
+    },
+    {
+      "source_id": "HY-SRC-FENGSU-WIKI",
+      "title": "与冯宿论文书",
+      "source_class": "A",
+      "source_role": "first_person_writing_evaluation_letter",
+      "edition": "Wikisource, 全唐文卷553",
+      "url": "https://zh.wikisource.org/zh-hans/與馮宿論文書",
+      "inspected": true,
+      "claim_bearing": true,
+      "locator": "full text",
+      "independence_group": "HY-TEXT-FENGSU",
+      "notes": "First-person contrast between writing Han Yu judges good and contemporary audience approval of conventional writing."
+    },
+    {
+      "source_id": "HY-SRC-WEICHI-WIKI",
+      "title": "答尉迟生书",
+      "source_class": "A",
+      "source_role": "first_person_writing_advice_letter",
+      "edition": "Wikisource, 全唐文卷551",
+      "url": "https://zh.wikisource.org/zh-hans/答尉遲生書",
+      "inspected": true,
+      "claim_bearing": true,
+      "locator": "opening paragraph",
+      "independence_group": "HY-TEXT-WEICHI",
+      "notes": "Discusses relation between what is within the writer and what appears in language, while still requiring sufficient diction for completed prose."
+    },
+    {
+      "source_id": "HY-SRC-FAN-WIKI",
+      "title": "南阳樊绍述墓志铭",
+      "source_class": "B",
+      "source_role": "authored_evaluation_of_another_writer",
+      "edition": "Wikisource, 全唐文卷563",
+      "url": "https://zh.wikisource.org/zh-hans/南陽樊紹述墓誌銘",
+      "inspected": true,
+      "claim_bearing": true,
+      "locator": "opening paragraph and inscription",
+      "independence_group": "HY-TEXT-FAN",
+      "notes": "Praises writing that originates from the writer rather than repeating predecessors, while also valuing orderly and functional wording."
+    },
+    {
+      "source_id": "HY-SRC-MENG-WIKI",
+      "title": "送孟东野序",
+      "source_class": "B",
+      "source_role": "authored_expression_theory",
+      "edition": "Wikisource, 全唐文卷555",
+      "url": "https://zh.wikisource.org/zh-hans/送孟東野序",
+      "inspected": true,
+      "claim_bearing": true,
+      "locator": "opening two paragraphs",
+      "independence_group": "HY-TEXT-MENG",
+      "notes": "Develops the idea that expression is triggered by pressure or imbalance; useful as a candidate lens, not automatically a revision rule."
+    }
+  ]
 }

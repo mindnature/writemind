@@ -1,0 +1,31 @@
+{
+  "heuristic_id": "HY-H02-FIT-BEFORE-DIFFICULTY",
+  "name": "Optimize fit, not predetermined difficulty",
+  "status": "provisional",
+  "lens_family": "rhetorical_judgment",
+  "decision_structure": "A writer is tempted to optimize for a global stylistic preference such as simplicity, difficulty, elegance or strangeness even though different material may require different expression.",
+  "rule": "Do not choose easy, difficult, plain or ornate language as an end in itself. Choose the level of verbal complexity that is adequate to the matter, purpose and audience, then test whether each word performs a necessary function.",
+  "operational_actions": [
+    "Name the communicative job of the passage before changing its sentence complexity.",
+    "If simplifying removes a necessary distinction, restore the distinction.",
+    "If complexity serves only prestige or tone, simplify it.",
+    "Ask whether each difficult or unusual expression earns its cost in precision, rhythm or argument."
+  ],
+  "supporting_episodes": ["HY-E02-INTENT-NOT-DICTION", "HY-E04-SUBSTANCE-EXPRESSION", "HY-E05-ORIGINALITY-ORDER"],
+  "counter_episodes": [],
+  "boundary_conditions": ["Accessibility requirements can legitimately impose a simpler register.", "Technical and legal writing may require stable terminology even when it is difficult."],
+  "failure_signals": ["The editor simplifies every sentence mechanically.", "The editor makes prose harder merely to sound serious.", "A platform-style rule overrides factual or conceptual precision."],
+  "specificity": {
+    "generic_baseline_overlap": "high",
+    "writer_specificity": "medium",
+    "writer_added_delta": "Han Yu's direct rejection of the easy-versus-difficult binary is a useful corrective, but much of the resulting modern advice overlaps with generic functional editing.",
+    "specificity_evidence": ["HY-E02-INTENT-NOT-DICTION", "HY-E05-ORIGINALITY-ORDER"]
+  },
+  "composition_audit": {
+    "components": ["reject fixed easy/hard preference", "require adequate diction", "value functional verbal order"],
+    "combined_operation_evidence": ["HY-E02-INTENT-NOT-DICTION"],
+    "fabrication_risk": "medium",
+    "alternative_interpretation": "The modern audience-fit formulation extends beyond the explicit historical wording."
+  },
+  "routing": {"lens_eligibility": "experimental_lens"}
+}

@@ -1,0 +1,28 @@
+{
+  "episode_id": "HY-E05-ORIGINALITY-ORDER",
+  "writer": "韩愈",
+  "title": "Originality is not license for disorder",
+  "episode_type": "wording_choice",
+  "date_or_period": "Tang dynasty; epitaph for Fan Zongshi",
+  "source_refs": ["HY-SRC-FAN-WIKI"],
+  "writing_problem": "What qualities make non-derivative writing admirable rather than merely eccentric?",
+  "context": "In praising Fan Zongshi's writing, Han Yu values both independence from predecessors' wording and an order in which words perform their proper functions.",
+  "constraints": [
+    "Original writing risks becoming idiosyncratic or uncontrolled.",
+    "Conventional writing risks repeating predecessors."
+  ],
+  "alternatives_or_contrasts": [
+    "Repeat predecessors' phrases.",
+    "Pursue novelty without verbal order or functional clarity."
+  ],
+  "decision_action": "Value expression that originates from the writer and avoids inherited phrasing, while retaining functional verbal order rather than equating originality with obscurity.",
+  "textual_observation": "The epitaph praises non-repetition and later summarizes the admired prose with the compact formula '文从字顺各识职'.",
+  "evidence_phrases": ["不袭蹈前人一言一句", "文从字顺各识职"],
+  "candidate_heuristics": ["HY-H01-PRINCIPLE-NOT-DICTION", "HY-H02-FIT-BEFORE-DIFFICULTY"],
+  "counter_episode_refs": [],
+  "alternative_interpretations": [
+    "The epitaph is praise of another writer, not a full account of Han Yu's own drafting process.",
+    "The phrase should not be flattened into the generic slogan 'always write simply'."
+  ],
+  "evidence_strength": "medium"
+}

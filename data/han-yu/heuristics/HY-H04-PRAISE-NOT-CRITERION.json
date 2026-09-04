@@ -1,0 +1,26 @@
+{
+  "heuristic_id": "HY-H04-PRAISE-NOT-CRITERION",
+  "name": "Separate immediate approval from the quality criterion",
+  "status": "candidate",
+  "lens_family": "audience_judgment",
+  "decision_structure": "Familiar, conventional writing receives immediate approval while more independent writing produces friction. The writer must decide whether current audience approval is the objective or merely one signal among several.",
+  "rule": "Before optimizing for applause, define the article's quality objective. If immediate approval rewards formulaic language that conflicts with the objective, do not use popularity as the sole editing criterion; if reach and comprehension are core objectives, treat reader response as legitimate evidence instead of dismissing it.",
+  "operational_actions": ["Separate readability metrics from originality and argument-quality metrics.", "Identify which familiar formulas help navigation and which only imitate prevailing taste.", "When a passage is unpopular, diagnose whether the problem is valuable unfamiliarity or simply poor communication."],
+  "supporting_episodes": ["HY-E01-LEARN-REMOVE", "HY-E03-AUDIENCE-PRAISE"],
+  "counter_episodes": [],
+  "boundary_conditions": ["Platform writing often has explicit reach objectives.", "Reader confusion is not evidence of profundity.", "Historical rejection by contemporaries does not automatically predict long-term value."],
+  "failure_signals": ["The advisor treats low engagement as proof of quality.", "The advisor dismisses all audience feedback as conformity pressure."],
+  "specificity": {
+    "generic_baseline_overlap": "medium_high",
+    "writer_specificity": "medium",
+    "writer_added_delta": "Han Yu's first-person contrast makes audience approval itself an object of diagnosis rather than a default quality label, but the modern metric framework is a transfer inference.",
+    "specificity_evidence": ["HY-E01-LEARN-REMOVE", "HY-E03-AUDIENCE-PRAISE"]
+  },
+  "composition_audit": {
+    "components": ["praise can reward familiar language", "independent internal criterion", "goal-sensitive use of audience feedback"],
+    "combined_operation_evidence": ["HY-E03-AUDIENCE-PRAISE"],
+    "fabrication_risk": "medium",
+    "alternative_interpretation": "The letter may be rhetorical self-fashioning; modern platform goals differ sharply from Han Yu's stated ambitions."
+  },
+  "routing": {"lens_eligibility": "experimental_lens"}
+}

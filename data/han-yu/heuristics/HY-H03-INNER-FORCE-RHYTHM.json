@@ -1,0 +1,26 @@
+{
+  "heuristic_id": "HY-H03-INNER-FORCE-RHYTHM",
+  "name": "Strengthen the underlying thought before tuning rhythm",
+  "status": "candidate",
+  "lens_family": "rhetorical_judgment",
+  "decision_structure": "Sentence rhythm or verbal force feels weak, and the editor can either decorate the surface or strengthen the underlying thought, stance and relation that the language must carry.",
+  "rule": "Before adding rhetorical force, test whether the passage has enough underlying thought, distinction or conviction to generate a natural rhythm. Treat rhythm as partly downstream of what the sentence has to carry, while still editing language for adequacy.",
+  "operational_actions": ["State the sentence's actual claim in plain language.", "If the claim is empty or generic, strengthen the thought before adding cadence.", "After substance is fixed, tune length and emphasis to the load carried by the sentence."],
+  "supporting_episodes": ["HY-E01-LEARN-REMOVE", "HY-E04-SUBSTANCE-EXPRESSION"],
+  "counter_episodes": [],
+  "boundary_conditions": ["Historical '气' cannot be silently equated with a modern psychological variable.", "Some genres deliberately use rhythm independent of argumentative density."],
+  "failure_signals": ["The advisor adds parallelism to an empty claim.", "The transfer treats '气' as a measurable universal writing parameter."],
+  "specificity": {
+    "generic_baseline_overlap": "medium",
+    "writer_specificity": "medium",
+    "writer_added_delta": "The historical metaphor linking inner force to sentence length and sound adds a diagnostic direction, but its modern operationalization remains interpretive.",
+    "specificity_evidence": ["HY-E01-LEARN-REMOVE", "HY-E04-SUBSTANCE-EXPRESSION"]
+  },
+  "composition_audit": {
+    "components": ["inner substance", "verbal adequacy", "rhythmic consequence"],
+    "combined_operation_evidence": ["HY-E01-LEARN-REMOVE", "HY-E04-SUBSTANCE-EXPRESSION"],
+    "fabrication_risk": "medium",
+    "alternative_interpretation": "This may be better treated as a historical poetics lens than a prescriptive editing algorithm."
+  },
+  "routing": {"lens_eligibility": "experimental_lens"}
+}

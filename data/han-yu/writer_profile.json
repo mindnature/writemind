@@ -5,13 +5,15 @@
   "aliases": ["韩退之", "昌黎先生"],
   "languages": ["Classical Chinese"],
   "period": "Tang dynasty",
-  "genres": ["prose", "letter", "preface", "argumentative prose", "memorial"],
-  "source_ceiling": "B",
-  "distillation_grade": "D_textual_reconstruction",
-  "status": "golden_set_bootstrap",
+  "genres": ["prose", "letter", "preface", "argumentative prose", "memorial", "epitaph"],
+  "source_ceiling": "A",
+  "distillation_grade": "B_text_process_informed",
+  "status": "golden_set_v0.1",
+  "grade_note": "Several received texts are first-person letters in which Han Yu directly discusses how he studies, judges and writes prose. They are strong method evidence, but WriteMind does not claim access to autograph drafts or complete revision histories.",
   "unsafe_to_claim": [
     "Do not claim access to Han Yu's private drafting thoughts unless a source directly records them.",
     "Do not turn a modern article into Classical Chinese merely to activate the Han Yu lens.",
-    "Do not attribute later literary-theory slogans to Han Yu without source verification."
+    "Do not attribute later literary-theory slogans to Han Yu without source verification.",
+    "Do not treat received-text editions as autograph manuscripts."
   ]
 }
