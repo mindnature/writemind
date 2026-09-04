@@ -1,0 +1,11 @@
+# Local/private personal writing profiles
+personal/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

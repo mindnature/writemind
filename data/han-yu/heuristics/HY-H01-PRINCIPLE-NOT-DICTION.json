@@ -12,6 +12,12 @@
     "Preserve target-platform register; do not imitate Classical Chinese diction to activate this lens.",
     "After rewriting, check whether the borrowed structure still serves the current article rather than the prestige of the model."
   ],
+  "diagnostic_questions": [
+    "这句话提供了当前文章独有的信息，还是换一个题也能原样出现？",
+    "你借鉴的到底是结构动作，还是参考文本或AI常用的表面措辞？",
+    "删除参考文本后，你还能用自己的事实和判断把这一段重新说出来吗？",
+    "这句留下来是因为准确，还是因为它听起来像一篇好文章？"
+  ],
   "supporting_episodes": ["HY-E01-LEARN-REMOVE", "HY-E02-INTENT-NOT-DICTION", "HY-E05-ORIGINALITY-ORDER"],
   "counter_episodes": [],
   "boundary_conditions": [

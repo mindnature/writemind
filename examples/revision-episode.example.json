@@ -1,0 +1,15 @@
+{
+  "episode_id": "REV-DEMO-001",
+  "context": "微信公众号开头改稿",
+  "platform": "wechat",
+  "task": "opening_revision",
+  "original_text": "在人工智能快速发展的今天，我们正站在一个前所未有的时代路口。",
+  "advisor_suggestion": "从当前文章独有的动作或事实进入，而不是宏观背景。",
+  "final_text": "我把同一个题目连续让AI写了四遍。",
+  "accepted_changes": ["删除宏观时代背景", "增加第一人称具体动作"],
+  "rejected_changes": ["没有采用更文学化的比喻"],
+  "user_feedback": "这个开头更像人在说话，不要一上来解释时代背景。",
+  "candidate_personal_rules": ["公众号开头有具体经历可用时，优先从自己的动作或具体事实进入，不从宏观时代背景起笔。"],
+  "writer_lenses_used": ["HY-H01-PRINCIPLE-NOT-DICTION"],
+  "confidence": "candidate"
+}

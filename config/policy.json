@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "default_lens_family": "thesis_judgment",
   "lens_families": {
     "thesis_judgment": {"episode_types": ["thesis_choice", "problem_framing", "argument_choice"]},
@@ -45,5 +45,13 @@
     "default": "preserve_target_register",
     "historical_language_imitation": "off",
     "require_functional_reason_for_style_transfer": true
+  },
+  "personal_learning": {
+    "require_explicit_feedback": true,
+    "candidate_after": 1,
+    "provisional_after": 2,
+    "validated_after": 3,
+    "current_instruction_overrides_profile": true,
+    "personal_directory_private_by_default": true
   }
 }

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WriteMind Personal Revision Episode",
+  "type": "object",
+  "required": ["episode_id", "context", "original_text", "user_final_text", "user_feedback"],
+  "properties": {
+    "episode_id": {"type": "string"},
+    "recorded_at": {"type": "string"},
+    "context": {"type": "string"},
+    "platform": {"type": "string"},
+    "task": {"type": "string"},
+    "original_text": {"type": "string"},
+    "advisor_suggestion": {"type": "string"},
+    "user_final_text": {"type": "string"},
+    "accepted_changes": {"type": "array", "items": {"type": "string"}},
+    "rejected_changes": {"type": "array", "items": {"type": "string"}},
+    "user_feedback": {"type": "string"},
+    "candidate_personal_rules": {"type": "array", "items": {"type": "string"}},
+    "writer_lenses_used": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"enum": ["candidate", "provisional", "validated"]}
+  }
+}

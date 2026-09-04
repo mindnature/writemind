@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WriteMind Personal Style Profile",
+  "type": "object",
+  "required": ["profile_id", "name", "voice_dna", "structural_dna", "revision_dna", "taste_dna", "personal_heuristics", "evidence"],
+  "properties": {
+    "profile_id": {"type": "string"},
+    "name": {"type": "string"},
+    "version": {"type": "string"},
+    "platform_profiles": {"type": "object"},
+    "voice_dna": {"type": "object"},
+    "structural_dna": {"type": "object"},
+    "revision_dna": {"type": "object"},
+    "taste_dna": {"type": "object"},
+    "personal_heuristics": {"type": "array", "items": {"type": "object"}},
+    "evidence": {"type": "object"}
+  }
+}

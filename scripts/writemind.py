@@ -10,6 +10,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from runtime.core import build_skill, discover_writers, init_writer
+from runtime.personal import build_personal_skill, init_personal_profile, record_revision
 from runtime.policy import transfer_action
 from runtime.taskfit import evaluate_task_fit
 from runtime.validation import validate_writer
@@ -36,6 +37,18 @@ def main() -> int:
     p_build.add_argument("--writer", required=True)
     p_build.add_argument("--output")
 
+    p_personal = sub.add_parser("init-personal")
+    p_personal.add_argument("name")
+    p_personal.add_argument("--slug", required=True)
+
+    p_revision = sub.add_parser("record-revision")
+    p_revision.add_argument("--profile", required=True)
+    p_revision.add_argument("--input", required=True, help="Revision Episode JSON")
+
+    p_personal_build = sub.add_parser("build-personal-skill")
+    p_personal_build.add_argument("--profile", required=True)
+    p_personal_build.add_argument("--output")
+
     sub.add_parser("list-writers")
     args = parser.parse_args()
 
@@ -57,6 +70,14 @@ def main() -> int:
         elif args.cmd == "build-skill":
             output = Path(args.output) if args.output else None
             print(build_skill(args.writer, output=output).resolve())
+        elif args.cmd == "init-personal":
+            print(init_personal_profile(args.name, args.slug).resolve())
+        elif args.cmd == "record-revision":
+            payload = json.loads(Path(args.input).read_text(encoding="utf-8"))
+            print(record_revision(args.profile, payload).resolve())
+        elif args.cmd == "build-personal-skill":
+            output = Path(args.output) if args.output else None
+            print(build_personal_skill(args.profile, output=output).resolve())
         elif args.cmd == "list-writers":
             print("\n".join(discover_writers()))
         return 0
